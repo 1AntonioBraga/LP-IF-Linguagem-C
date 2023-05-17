@@ -16,4 +16,5 @@ fim para;
 Para x de 1 até 4 faça
     VC[X] <- (VA[X] + VB[X]);
     Escreva(VC[X]);
-fim para
+fim para;
+fim
