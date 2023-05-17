@@ -1,0 +1,19 @@
+Início
+Tipo Vet = vetor[1..4] de inteiro;
+Vet: VA,VB,VC;
+Inteiro: x;
+
+Para x de 1 até 4 faça
+    Escreva("Digite valores para o Vetor A");
+    leia(VA[X]);
+fim para;
+
+Para x de 1 até 4 faça
+    Escreva("Digite valores para o Vetor B");
+    leia(VB[X]);
+fim para;
+
+Para x de 1 até 4 faça
+    VC[X] <- (VA[X] + VB[X]);
+    Escreva(VC[X]);
+fim para

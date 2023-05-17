@@ -1,0 +1,24 @@
+Construa um algoritmo que liste o código da empresa com maiores recursos humanos dentro de sua categoria. Utilize como finalizador o código de empresa igual a 0:
+Entradas (Cod, RH, Porte);
+Saídas MaiorMicro,Maior pequena, Maior média, Maior Grande;
+códigos e número RH de cada; Saída do loop → 0
+
+
+Início
+Inteiro: Cod,Rh,Porte,EmpMic,ContMic,EmpMen,ContMen, EmpMed,ContMed, EmpGran, ContGran;
+
+Escreva:("Digie o código da empresa: ");
+leia(Cod);
+Escreva:("Digite a quantidade de Recursos Humanos da empresa: ");
+leia(Rh);
+Escreva("Digite o código do porte da empresa: ");
+leia(Porte); // 1 para micro, 2 para pequena, 3 para média e 4 para grande.
+
+ContMic<-0
+ContMen<-0
+ContMed<-0
+ContGran<-0
+
+Enquanto Cod <> 0
+    Escolha Porte:
+    Caso "1": ContMic <- Contmic + 1
