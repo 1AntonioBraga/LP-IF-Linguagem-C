@@ -1,0 +1,20 @@
+Início
+vet = vetor[1..5] de inteiro;
+vet:VA,VB;
+inteiro: X;
+
+Para X de 1 até 5 faça
+leia(VA[X]);
+    Se(VA[X]) mod 2 = 0
+        Então
+        (VB[X]) <- 0;
+        Senão
+        (VB[X]) <- 1;
+    Fim se
+Fim Para
+
+Para X de 1 até 5 faça
+Escreva(VA[X]);
+Escreva(VB[X]);
+Fim Para
+Fim
