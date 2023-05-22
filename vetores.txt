@@ -1,5 +1,5 @@
 Início
-vet = vetor[1..5] de inteiro;
+Tipo vet = vetor[1..5] de inteiro;
 vet:VA,VB;
 inteiro: X;
 

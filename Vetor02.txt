@@ -1,0 +1,28 @@
+Início
+Tipo Vet1 = Vetor[1..5] de inteiro;
+Tipo Vet2 = Vetor[1..5] de char;
+Tipo Vet3 = Vetor[1..5] de reais;
+Vet1: VA,VB;
+Vet2: VO;
+vet3: VR;
+Inteiro: X;
+
+Para X de 1 até 5 faça;
+  leia(VA[X]);
+  leia(VB[X]);
+  leia(VO[X]);
+Fim para
+
+Para X de 1 até 5 faça
+    Escolha VO[X]
+    caso "+" : VR[X]  <- VA[X] + VB[X];
+    caso "/" : VR[X]  <- VA[X] / VB[X];
+    caso "*" : VR[X]  <- VA[X] * VB[X];
+    caso "-" : VR[X]  <- VA[X] - VB[X];
+    Fim Escolha
+Fim para;
+
+Para X de 1 até 5 faça
+Escreva(VR[X]);
+Fim para
+Fim
